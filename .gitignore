@@ -1,0 +1,12 @@
+/.cache
+/.python-version
+/.tox
+/*.egg-info
+/build
+/dist
+/docs/build
+
+/Pipfile.lock
+
+__pycache__
+*.pyc
