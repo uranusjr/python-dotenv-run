@@ -5,15 +5,13 @@ from setuptools import setup
 
 
 readme = open('README.rst').read()
-# history = open('HISTORY.rst').read().replace('.. :changelog:', '')
-history = ''
 
 
 setup(
     name='python-dotenv-run',
-    version='0.1.1',
+    version='0.1.2',
     description='A good SQLian like a good shepherd.',
-    long_description='\n\n'.join([readme, history]),
+    long_description=readme,
     author='Tzu-ping Chung',
     author_email='uranusjr@gmail.com',
     url='https://github.com/uranusjr/sqlian',
@@ -31,7 +29,6 @@ setup(
         'Intended Audience :: Developers',
         'License :: OSI Approved :: ISC License (ISCL)',
         'Natural Language :: English',
-        'Programming Language :: SQL',
         'Programming Language :: Python',
         'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 2.7',
