@@ -45,4 +45,4 @@ After installing dependencies, you can run it like this::
 
 
 .. _python-dotenv: https://github.com/theskumar/python-dotenv
-.. _Pipenv_: https://github.com/kennethreitz/pipenv
+.. _Pipenv: https://github.com/kennethreitz/pipenv
