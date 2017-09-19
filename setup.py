@@ -11,13 +11,13 @@ history = ''
 
 setup(
     name='python-dotenv-run',
-    version='0.1',
+    version='0.1.1',
     description='A good SQLian like a good shepherd.',
     long_description='\n\n'.join([readme, history]),
     author='Tzu-ping Chung',
     author_email='uranusjr@gmail.com',
     url='https://github.com/uranusjr/sqlian',
-    module='dotenv_run',
+    py_modules=['dotenv_run'],
     install_requires=['click', 'python-dotenv>=0.7.0'],
     entry_points={
         'console_scripts': [
