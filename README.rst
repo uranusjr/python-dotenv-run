@@ -2,7 +2,7 @@
 Pyhton-Dotenv-Run
 =================
 
-Run command with environment variables populated by python-dotenv_
+Run command with environment variables populated by python-dotenv_.
 
 
 Installation
