@@ -9,12 +9,12 @@ readme = open('README.rst').read()
 
 setup(
     name='python-dotenv-run',
-    version='0.1.2',
-    description='A good SQLian like a good shepherd.',
+    version='0.1.3',
+    description='Run command with environment populated by the .env file.',
     long_description=readme,
     author='Tzu-ping Chung',
     author_email='uranusjr@gmail.com',
-    url='https://github.com/uranusjr/sqlian',
+    url='https://github.com/uranusjr/python-dotenv-run',
     py_modules=['dotenv_run'],
     install_requires=['click', 'python-dotenv>=0.7.0'],
     entry_points={

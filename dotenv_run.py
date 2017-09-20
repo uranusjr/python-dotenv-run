@@ -16,7 +16,7 @@ import dotenv
     default=False,
     help=("Whether contents in the .env file should override existing "
           "environment variables. Defaults behavior is to respect the "
-          "existing environment,"),
+          "existing environment."),
 )
 @click.option(
     '-f', '--file', 'filename',
