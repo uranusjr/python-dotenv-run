@@ -7,6 +7,7 @@ import dotenv
 
 @click.command(context_settings={
     'ignore_unknown_options': True,
+    'allow_interspersed_args': False,
     'allow_extra_args': True,
 })
 @click.argument('command')
