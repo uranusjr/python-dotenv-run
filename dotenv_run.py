@@ -22,7 +22,7 @@ import dotenv
 @click.option(
     '-f', '--file', 'filename',
     default=os.path.join(os.getcwd(), '.env'),
-    type=click.Path(exists=True),
+    type=click.Path(),
     help=("Location of the .env file, "
           "defaults to .env file in current working directory."),
 )
@@ -30,7 +30,8 @@ import dotenv
 def main(ctx, filename, override, command, args):
     """Run command with environment loaded with python-dotenv.
     """
-    dotenv.load_dotenv(filename, override=override)
+    if os.path.isfile(filename):
+        dotenv.load_dotenv(filename, override=override)
     if os.name == 'nt':
         # Windows has problems with `os.exec*`, according to Pipenv,
         # so let's launch a subshell instead.
