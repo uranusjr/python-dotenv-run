@@ -9,7 +9,7 @@ readme = open('README.rst').read()
 
 setup(
     name='python-dotenv-run',
-    version='0.1.3',
+    version='0.1.4',
     description='Run command with environment populated by the .env file.',
     long_description=readme,
     author='Tzu-ping Chung',
